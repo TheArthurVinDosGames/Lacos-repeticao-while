@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class E_EX1 {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+
+		int MaiorIdade = 0;
+
+		int MenorIdade = 0;
+
+		int c = 1;
+
+		while (c <= 10) {
+
+			System.out.print("Informe a idade da pessoa " + c + ": ");
+			int idade = in.nextInt();
+
+			if (idade >= 18) {
+
+				MaiorIdade++;
+
+			} else {
+
+				MenorIdade++;
+
+			}
+
+			c++;
+
+		}
+
+		System.out.println("Pessoas maiores de idade: " + MaiorIdade);
+
+		System.out.println("Pessoas menores de idade: " + MenorIdade);
+
+		in.close();
+
+	}
+
+}
