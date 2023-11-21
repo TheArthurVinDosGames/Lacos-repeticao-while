@@ -1,0 +1,21 @@
+public class D_EX1 {
+
+	public static void main(String[] args) {
+
+		int n = 1;
+
+		int s = 0;
+
+		while (n <= 100) {
+
+			s += n;
+
+			n++;
+
+		}
+
+		System.out.println("A somatória dos números de 1 a 100 é: " + s);
+
+	}
+
+}
